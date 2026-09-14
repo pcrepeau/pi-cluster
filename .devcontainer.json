@@ -1,9 +1,9 @@
 {
   "image": "mcr.microsoft.com/devcontainers/base:debian",
   "features": {
-    "ghcr.io/devcontainers-extra/features/neovim-homebrew": {}
+    "ghcr.io/stu-bell/devcontainer-features/homebrew": {}
   },
-  "onCreateCommand": "sudo chsh -s /usr/bin.zsh $USER",
+  "onCreateCommand": "sudo chsh -s /usr/bin/zsh $USER",
   "customizations": {
     "vscode": {
       "settings": {
