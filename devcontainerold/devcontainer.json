@@ -1,0 +1,8 @@
+{
+  "name": "pi-cluster",
+  "build": {
+    "context": "..",
+    "dockerfile": "Dockerfile",
+  },
+  "postCreateCommand": "scripts/setup"
+}
