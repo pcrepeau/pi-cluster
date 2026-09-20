@@ -4,7 +4,7 @@ metadata:
   name: linkding
 spec:
   ports:
-    - port: 9090
+    - ports: 9090
   selector:
     app: linkding
   type: ClusterIP
