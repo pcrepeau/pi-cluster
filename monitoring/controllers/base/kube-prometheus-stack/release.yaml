@@ -31,3 +31,21 @@ spec:
   values:
     grafana:
       adminPassword: monitorme
+      ingress:
+        enabled: true
+
+        ingressClassName: traefik
+
+        ## Hostnames.
+        ## Must be provided if Ingress is enable.
+        ##
+        hosts:
+          - grs.petercrepeau.com
+
+        ## TLS configuration for grafana Ingress
+        ## Secret must be manually created in the namespace
+        ##
+        #tls:
+        #  - secretName: grafana-tls-secret
+        #    hosts:
+        #      - grs.petercrepeau.com
