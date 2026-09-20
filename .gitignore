@@ -1,2 +1,4 @@
 .envrc
 kubeconfig
+age.agekey
+test-secret.yaml
