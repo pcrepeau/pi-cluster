@@ -14,12 +14,11 @@ spec:
             - name: renovate
               image: renovate/renovate:latest
               args:
-                - pcrepeau/pi-cluster
+                - mischavandenburg/pi-cluster
 
               envFrom:
                 - secretRef:
                     name: renovate-container-env
                 - configMapRef:
                     name: renovate-configmap
-
           restartPolicy: Never
