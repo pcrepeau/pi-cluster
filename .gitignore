@@ -1,5 +1,3 @@
 .envrc
 kubeconfig
 age.agekey
-tls.crt
-tls.key
