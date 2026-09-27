@@ -7,6 +7,8 @@
   //"runArgs": [
   //  "--userns=keep-id"
   //],
+  "remoteUser": "vscode",
+  "containerUser": "vscode",
   "onCreateCommand": "sudo chsh -s /usr/bin/zsh $USER",
   "customizations": {
     "vscode": {
