@@ -4,6 +4,9 @@
   "features": {
     "ghcr.io/stu-bell/devcontainer-features/homebrew:latest": {}
   },
+  //"runArgs": [
+  //  "--userns=keep-id"
+  //],
   "onCreateCommand": "sudo chsh -s /usr/bin/zsh $USER",
   "customizations": {
     "vscode": {
